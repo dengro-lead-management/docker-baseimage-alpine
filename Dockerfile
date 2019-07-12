@@ -34,7 +34,7 @@ RUN \
     useradd -u 911 -U -d /config -s /bin/false abc && \
     usermod -G users abc && \
     mkdir -p \
-        /app \
+        /app/src \
         /config \
         /defaults && \
     # cleanup
